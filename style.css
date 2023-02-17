@@ -171,3 +171,42 @@
 .right-story-blog img {
   width: 200px;
 }
+.paragraph {
+  background-color: burlywood;
+  padding: 50PX 0;
+}
+.paragraph h2 {
+  font-size: 70px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.paragraph p {
+  max-width: 450px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+}
+.paragraph-list img {
+  border-radius: 100%;
+  border: 1px solid #000 ;
+}
+.paragraph-list a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  
+}
+.parent-paragraph-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+.paragraph-list {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid black;
+  gap: 5px;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
